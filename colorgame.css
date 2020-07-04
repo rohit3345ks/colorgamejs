@@ -1,0 +1,62 @@
+body{
+    background: #232323;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px;
+    transition: background 0.32s;
+    -webkit-transition: background 0.32s;
+    -moz-transition: background 0.32s;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.label{
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    text-align: center;
+}
+#rgb{
+    font-size: 2em;
+}
+button{
+    border: none;
+    background: transparent;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+    -webkit-transition: all 0.32s;  /*Webkit engine (safari) browser support*/
+    -moz-transition: all 0.32s;  /*moz engine (firefox) browser support*/
+ }
+#message{
+    display: inline-block;
+    width: 20%;
+}
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+.selected{
+    background: steelblue;
+    color: white;
+}
